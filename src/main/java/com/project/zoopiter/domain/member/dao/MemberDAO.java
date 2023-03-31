@@ -51,7 +51,14 @@ public interface MemberDAO {
    * @param userEmail 이메일
    * @return
    */
-  boolean isExist(String userEmail);
+  boolean isExistEmail(String userEmail);
+
+  /**
+   * 회원유무
+   * @param userId 아이디
+   * @return
+   */
+  boolean isExistId(String userId);
 
   /**
    * 로그인

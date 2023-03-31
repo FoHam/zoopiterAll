@@ -12,6 +12,8 @@ public class Member {
   private String userPw;
   private String userNick;
   private String userEmail;
-//  private String gubun;
+  private String gubun;
 //  private byte[] userPhoto;
+//  private LocalDateTime cdate;
+//  private LocalDateTime udate;
 }
